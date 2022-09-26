@@ -21,7 +21,7 @@ function renderLicenseBadge(license) {
 
 // }
 function maketoc(toc){
-  if (toc === true) {
+  if (toc === 'yes') {
     return `- Description
     - motive
     - reason
