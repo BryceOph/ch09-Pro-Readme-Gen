@@ -6,6 +6,8 @@ function renderLicenseBadge(license) {
 
   } else if (license === "Boost Software License 1.0") {
     return "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)"
+  } else if (license === "BSD 3-Clause License") {
+    return "[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
   }
 }
 
@@ -20,14 +22,16 @@ function renderLicenseBadge(license) {
 // function renderLicenseSection(license) {
 
 // }
-function maketoc(toc){
-  if (toc === 'yes') {
+function maketoc(toc) {
+  if (toc === "yes") {
     return `- Description
     - motive
     - reason
     - problem
     - learn
     - standout`
+  } else {
+    return ""
   }
 }
 

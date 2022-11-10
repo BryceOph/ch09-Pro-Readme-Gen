@@ -20,9 +20,13 @@ const questions = [
         name:'description',
     },
     {
-        type:'input',
+        type:'list',
         message:'Does the project have a table of contents?',
         name:'toc',
+        choices: [
+            "yes",
+            "No",
+        ]
     },
     {
         type: "input",

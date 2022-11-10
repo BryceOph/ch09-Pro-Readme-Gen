@@ -1,19 +1,24 @@
 
-  # Professional Readme Generator
+  # Pro ReadMe Generator
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Description
-  It asks some questions that outline the format you want then takes your answers and generates a professional read me file
+  It uses nodejs to render a pro ReadMe
   ## Motivation
-  To make a good Professional Read me
+  To Make a Professional ReadMe
   ## Table of content
-   undefined
+   - Description
+    - motive
+    - reason
+    - problem
+    - learn
+    - standout
   ## Reason
-  to challenge myself and see if I can apply what I learned in class
+  To Practice my NodeJs knowledge
   ## Problem
-  It solves the challenge of making a good professional ReadMe doc
+  It makes it easier to create a good looking ReadMe file
   ## Learning
-  I learned how to manipulate javascript in new and interesting ways
+  I learned how to use NodeJs and Inquirer to create a functional app
   ## Standout
-  I hope how well put together this file will be should make it standout
+  How I set it up with more than just input files
 
